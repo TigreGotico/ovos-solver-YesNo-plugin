@@ -1,3 +1,1 @@
 ovos-plugin-manager
-ovos-translate-server-plugin
-YesNo_bus_client>=0.0.4a21
