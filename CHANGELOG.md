@@ -1,16 +1,12 @@
 # Changelog
 
-## [0.0.0a2](https://github.com/TigreGotico/ovos-solver-YesNo-plugin/tree/0.0.0a2) (2024-11-07)
+## [0.1.0a1](https://github.com/TigreGotico/ovos-solver-YesNo-plugin/tree/0.1.0a1) (2024-11-07)
 
-[Full Changelog](https://github.com/TigreGotico/ovos-solver-YesNo-plugin/compare/8a36d59d4d771b336ead672d8341539802197c32...0.0.0a2)
-
-**Implemented enhancements:**
-
-- feat/initial\_implementation [\#1](https://github.com/TigreGotico/ovos-solver-YesNo-plugin/pull/1) ([JarbasAl](https://github.com/JarbasAl))
+[Full Changelog](https://github.com/TigreGotico/ovos-solver-YesNo-plugin/compare/0.0.0a0...0.1.0a1)
 
 **Merged pull requests:**
 
-- semver [\#2](https://github.com/TigreGotico/ovos-solver-YesNo-plugin/pull/2) ([JarbasAl](https://github.com/JarbasAl))
+- feat:dialect\_support [\#3](https://github.com/TigreGotico/ovos-solver-YesNo-plugin/pull/3) ([JarbasAl](https://github.com/JarbasAl))
 
 
 

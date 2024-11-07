@@ -3,6 +3,7 @@ import os.path
 import re
 import string
 from ovos_plugin_manager.templates.solvers import QuestionSolver
+from langcodes import closest_match
 
 
 class YesNoSolver(QuestionSolver):
@@ -35,6 +36,12 @@ class YesNoSolver(QuestionSolver):
         return text
 
     def match_yes_or_no(self, text: str, lang: str):
+        _langs = os.listdir(f"{os.path.dirname(__file__)}/res")
+        lang2, score = closest_match(lang, _langs)
+        if score < 10:
+            raise ValueError(f"unsupported lang: {lang}")
+        lang = lang2
+
         if lang not in self.resources:
             resource_file = f"{os.path.dirname(__file__)}/res/{lang}/yesno.json"
 
