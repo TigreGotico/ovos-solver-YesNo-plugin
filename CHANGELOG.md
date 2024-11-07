@@ -1,12 +1,24 @@
 # Changelog
 
-## [0.1.0a1](https://github.com/TigreGotico/ovos-solver-YesNo-plugin/tree/0.1.0a1) (2024-11-07)
+## [0.2.0a1](https://github.com/OpenVoiceOS/ovos-solver-YesNo-plugin/tree/0.2.0a1) (2024-11-07)
 
-[Full Changelog](https://github.com/TigreGotico/ovos-solver-YesNo-plugin/compare/0.0.0a0...0.1.0a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-solver-YesNo-plugin/compare/0.1.1a1...0.2.0a1)
 
 **Merged pull requests:**
 
-- feat:dialect\_support [\#3](https://github.com/TigreGotico/ovos-solver-YesNo-plugin/pull/3) ([JarbasAl](https://github.com/JarbasAl))
+- feat: auto translation [\#6](https://github.com/OpenVoiceOS/ovos-solver-YesNo-plugin/pull/6) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.1.1a1](https://github.com/OpenVoiceOS/ovos-solver-YesNo-plugin/tree/0.1.1a1) (2024-11-07)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-solver-YesNo-plugin/compare/0.1.0...0.1.1a1)
+
+**Merged pull requests:**
+
+- documentation: algorithm [\#5](https://github.com/OpenVoiceOS/ovos-solver-YesNo-plugin/pull/5) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.1.0](https://github.com/OpenVoiceOS/ovos-solver-YesNo-plugin/tree/0.1.0) (2024-11-07)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-solver-YesNo-plugin/compare/0.1.0a0...0.1.0)
 
 
 
