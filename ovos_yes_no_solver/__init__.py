@@ -10,7 +10,7 @@ class YesNoSolver(QuestionSolver):
     """not meant to be used within persona framework
     this solver only indicates if the user answered "yes" or "no"
     to a yes/no prompt"""
-    enable_tx = False  # TODO - dynamic depending on lang
+    enable_tx = False
     priority = 100
 
     def __init__(self, config=None):
@@ -39,7 +39,9 @@ class YesNoSolver(QuestionSolver):
         _langs = os.listdir(f"{os.path.dirname(__file__)}/res")
         lang2, score = closest_match(lang, _langs)
         if score < 10:
-            raise ValueError(f"unsupported lang: {lang}")
+            text = self.translate(text, target_lang="en", source_lang=lang)
+            return self.match_yes_or_no(text, "en")
+        
         lang = lang2
 
         if lang not in self.resources:
