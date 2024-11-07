@@ -5,7 +5,7 @@ from setuptools import setup
 
 BASEDIR = os.path.abspath(os.path.dirname(__file__))
 
-with open("README.md", "r") as fh:
+with open(f"{BASEDIR}/README.md", "r") as fh:
     long_desc = fh.read()
 
 
@@ -50,7 +50,7 @@ setup(
     name='ovos-solver-yes-no-plugin',
     version=get_version(),
     description='A question solver plugin for OVOS',
-    url='https://github.com/TigreGotico/ovos-solver-YesNo-plugin',
+    url='https://github.com/OpenVoiceOS/ovos-solver-YesNo-plugin',
     author='jarbasai',
     author_email='jarbasai@mailfence.com',
     license='MIT',
