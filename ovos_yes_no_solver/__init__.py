@@ -36,11 +36,7 @@ class YesNoSolver(QuestionSolver):
         return text
 
     def match_yes_or_no(self, text: str, lang: str):
-        _langs = ("az-az", "ca-es", "cs-cz", "da-dk", "de-de",
-                  "en-us", "es-es", "fr-fr",
-                  "hu-hu", "it-it", "nl-nl", "pl-pl",
-                  "fa-ir", "pt-pt", "ru-ru", "sl-si",
-                  "sv-se", "tr-tr", "eu-eu", "uk-ua")
+        _langs = os.listdir(f"{os.path.dirname(__file__)}/res")
         lang2, score = closest_match(lang, _langs)
         if score < 10:
             raise ValueError(f"unsupported lang: {lang}")
